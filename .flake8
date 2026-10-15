@@ -1,0 +1,4 @@
+[flake8]
+# 忽略指定错误码（E302/E305：空行问题；W292：文件末尾换行问题）
+extend-ignore = E302,E305,W292
+max-line-length = 100
