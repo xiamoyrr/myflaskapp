@@ -18,8 +18,7 @@ pipeline {
         }
         stage('Checkout') {
             steps {
-                // TODO: 换成你自己的仓库地址
-                git url: 'https://github.com/<your-account>/myflaskapp.git', branch: 'main'
+                git url: 'https://github.com/xiamoyrr/myflaskapp.git', branch: 'main'
             }
         }
         stage('Fix pip') {
